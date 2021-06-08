@@ -5,8 +5,8 @@ library(ggplot2)
 
 ###
 
-# NAME <- 'H3K27me3_MEL.ENCFF684CIQ.mm10'
-NAME <- 'H3K27me3_MEL.ENCFF932OHQ.mm10'
+NAME <- 'H3K27me3_MEL.ENCFF684CIQ.mm10'
+# NAME <- 'H3K27me3_MEL.ENCFF932OHQ.mm10'
 
 DATA_DIR <- "/home/sonya/Downloads/minor_project/"
 OUT_DIR <- "/home/sonya/Downloads/minor_project/images"
