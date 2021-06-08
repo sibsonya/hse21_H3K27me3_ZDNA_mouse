@@ -10,7 +10,7 @@ library(dplyr)
 NAME <- 'H3K27me3_MEL.ENCFF932OHQ.mm10'
 
 DATA_DIR <- "/home/sonya/Downloads/minor_project/"
-OUT_DIR <- "/home/sonya/Downloads/minor_project/"
+OUT_DIR <- "/home/sonya/Downloads/minor_project/images"
 
 ###
 
@@ -24,7 +24,7 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('filter_peaks.', NAME, '.init.hist.pdf'), path = '/home/sonya/Downloads/minor_project/images')
+ggsave(paste0('filter_peaks.', NAME, '.init.hist.pdf'), path = OUT_DIR)
 
 # Remove long peaks
 bed_df <- bed_df %>%
@@ -36,7 +36,7 @@ ggplot(bed_df) +
   geom_histogram() +
   ggtitle(NAME, subtitle = sprintf('Number of peaks = %s', nrow(bed_df))) +
   theme_bw()
-ggsave(paste0('filter_peaks.', NAME, '.filtered.hist.pdf'), path = '/home/sonya/Downloads/minor_project/images')
+ggsave(paste0('filter_peaks.', NAME, '.filtered.hist.pdf'), path = OUT_DIR)
 
 bed_df %>%
   select(-len) %>%
