@@ -1,12 +1,15 @@
-source('lib.R')
+setwd("/home/sonya/Downloads/minor_project/")
+
+# install.packages("ggplot2")
+library(ggplot2)
 
 ###
 
-NAME <- 'DeepZ'
-#NAME <- 'H3K4me3_A549.ENCFF573MUH.hg19'
-#NAME <- 'H3K4me3_A549.ENCFF573MUH.hg38'
-#NAME <- 'H3K4me3_A549.ENCFF832EOL.hg19'
-#NAME <- 'H3K4me3_A549.ENCFF832EOL.hg38'
+# NAME <- 'H3K27me3_MEL.ENCFF684CIQ.mm10'
+NAME <- 'H3K27me3_MEL.ENCFF932OHQ.mm10'
+
+DATA_DIR <- "/home/sonya/Downloads/minor_project/"
+OUT_DIR <- "/home/sonya/Downloads/minor_project/"
 
 ###
 
