@@ -47,11 +47,19 @@
    
    cat \*.filtered.bed | sort -k1,1 -k2,2n | bedtools merge > H3K27me3_MEL.merge.mm10.bed 
    
-7. Скачивание файла со вторичной структурой ДНК
+7. Скачивание файла со вторичной структурой ДНК (ZDNA_mouse_1)
 
    wget <https://drive.google.com/u/0/uc?id=1gFY4Ma9OWFJBWVhgdV3TqTf8pgy_ghKy&export=download>
 
-8. 
+8. Pаспределение длин участков ZDNA_mouse_1 и расположение участков ZDNA_mouse_1 относительно аннотированных генов
+
+   см. len_hist.R и chip_seeker.R в папке src
+   
+9. Пересечение гистоновой метки (H3K27me3) и вторичной структуры ДНК (ZDNA_mouse_1)
+
+   bedtools intersect -a mouseZ-DNA1.bed -b H3K27me3_MEL.merge.mm10.bed > H3K27me3_MEL.intersect_with_mouseZ-DNA1.bed
+
+
    
    
 
