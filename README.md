@@ -29,5 +29,15 @@
    zcat ENCFF932OHQ.bed.gz | cut -f1-5 > H3K27me3_MEL.ENCFF932OHQ.mm10.bed  
    zcat ENCFF684CIQ.bed.gz | cut -f1-5 > H3K27me3_MEL.ENCFF684CIQ.mm10.bed
    
-3.
+3. Построение гистограмм длин участков для каждого эксперимента
+
+   см. len_hist.R в папке src
+
+4. Фильтрация ChIP-seq пиков (выкидываем слишком длинные пики - outliers)
+   
+   см. filter_peaks.R в папке src
+   Порог для ENCFF932OHQ: 600
+   Порог для ENCFF684CIQ: 1500
+   
+5. 
 
