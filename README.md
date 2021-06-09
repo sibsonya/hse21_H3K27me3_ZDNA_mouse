@@ -21,7 +21,7 @@
 
 ### ENCFF932OHQ
 
-### Распределение длин пиков
+#### Распределение длин пиков
 
 До фильтрации:
 
@@ -31,13 +31,13 @@
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.filtered.hist.png" width="500"/>
 
-### Расположение пиков относительно аннотированных генов
+#### Расположение пиков относительно аннотированных генов
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K27me3_MEL.ENCFF932OHQ.mm10.filtered.plotAnnoPie.png" width="500"/>
 
 ### ENCFF684CIQ
 
-### Распределение длин пиков
+#### Распределение длин пиков
 
 До фильтрации:
 
@@ -47,19 +47,33 @@
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF684CIQ.mm10.filtered.hist.png" width="500"/>
 
-### Расположение пиков относительно аннотированных генов
+#### Расположение пиков относительно аннотированных генов
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K27me3_MEL.ENCFF684CIQ.mm10.filtered.plotAnnoPie.png" width="500"/>
 
 ### ZDNA_mouse_1
 
-### Распределение длин участков
+#### Распределение длин участков
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/len_hist.mouseZ-DNA1.png" width="500"/>
 
-### Расположение участков относительно аннотированных генов
+#### Расположение участков относительно аннотированных генов
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chip_seeker.mouseZ-DNA1.plotAnnoPie.png" width="500"/>
+
+### Intersection of ENCFF932OHQ and ENCFF684CIQ
+
+#### Распределение длин участков
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/len_hist.H3K27me3_MEL.intersect_with_mouseZ-DNA1.png" width="500"/>
+
+#### Расположение участков относительно аннотированных генов
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K27me3_MEL.intersect_with_mouseZ-DNA1.plotAnnoPie.png" width="500"/>
+
+### Визуализация в геномном браузере
+
+
 
 ### Выполненные команды
 
