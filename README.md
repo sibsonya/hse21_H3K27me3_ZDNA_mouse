@@ -17,6 +17,20 @@
 1. [ENCFF932OHQ](https://www.encodeproject.org/files/ENCFF932OHQ/) 
 2. [ENCFF684CIQ](https://www.encodeproject.org/files/ENCFF684CIQ/)
 
+## Результаты
+
+### ENCFF932OHQ
+
+### Распределение длин пиков
+
+До фильтрации:
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.init.hist.png" width="500"/>
+
+После фильтрации:
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.filtered.hist.png" width="500"/>
+
 ### Выполненные команды
 
 1. Скачивание файлов экспериментов
