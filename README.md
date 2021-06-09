@@ -47,5 +47,11 @@
    
    cat \*.filtered.bed | sort -k1,1 -k2,2n | bedtools merge > H3K27me3_MEL.merge.mm10.bed 
    
-7. 
+7. Скачивание файла со вторичной структурой ДНК
+
+   wget <https://drive.google.com/u/0/uc?id=1gFY4Ma9OWFJBWVhgdV3TqTf8pgy_ghKy&export=download>
+
+8. 
+   
+   
 
