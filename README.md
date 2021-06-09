@@ -27,6 +27,9 @@
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.init.hist.png" width="500"/>
 
+После фильтрации:
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.filtered.hist.png" width="500"/>
 
 ### Выполненные команды
 
