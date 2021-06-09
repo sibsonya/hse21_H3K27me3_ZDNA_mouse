@@ -73,6 +73,15 @@
 
 ### Визуализация в геномном браузере
 
+Ссылка: <http://genome.ucsc.edu/s/sisibagatova/hse21_H3K27me3_ZDNA_mouse>
+
+chr10:20,148,578-20,148,626  
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chr10:20%2C148%2C578-20%2C148%2C626.png"/>
+
+chr10:21,570,766-21,570,933
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chr10:21%2C570%2C766-21%2C570%2C933.png"/>
 
 
 ### Выполненные команды
