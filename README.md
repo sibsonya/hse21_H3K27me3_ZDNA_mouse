@@ -83,6 +83,12 @@
 
     track visibility=dense name="intersect_with_mouseZ-DNA1" color=200,0,0 description="H3K27me3_MEL.intersect_with_mouseZ-DNA1.bed"  
     <https://raw.githubusercontent.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/main/data/H3K27me3_MEL.intersect_with_mouseZ-DNA1.bed>
+    
+13. Kонвертация координат пересечений гистоновой метки (H3K27me3) и вторичной структуры ДНК (ZDNA_mouse_1) с генома мыши mm10 на геном человека hg19
+
+    wget <https://hgdownload.cse.ucsc.edu/goldenpath/mm10/liftOver/mm10ToHg19.over.chain.gz>  
+    liftOver H3K27me3_MEL.intersect_with_mouseZ-DNA1.bed mm10ToHg19.over.chain.gz H3K27me3_MEL_mm10tohg19.intersect_with_mouseZ-DNA1.bed \_unmapped.txt
+
 
 
 
