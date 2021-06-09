@@ -36,8 +36,16 @@
 4. Фильтрация ChIP-seq пиков (выкидываем слишком длинные пики - outliers)
    
    см. filter_peaks.R в папке src  
-   Порог для ENCFF932OHQ: 600  
-   Порог для ENCFF684CIQ: 1500
+   порог для ENCFF932OHQ: 600  
+   порог для ENCFF684CIQ: 1500
    
-5. 
+5. Расположение пиков гистоновой метки относительно аннотированных генов
+   
+   см. chip_seeker.R в папке src 
+   
+6. Объединение отфильтрованных ChIP-seq пиков
+   
+   cat \*.filtered.bed | sort -k1,1 -k2,2n | bedtools merge > H3K27me3_MEL.merge.mm10.bed 
+   
+7. 
 
