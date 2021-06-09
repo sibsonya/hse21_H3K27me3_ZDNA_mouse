@@ -25,9 +25,7 @@
 
 До фильтрации:
 
-<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.init.hist.png" width="200"/>
-
-![alt text](https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.init.hist.png =250x)
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.init.hist.png" width="500"/>
 
 
 ### Выполненные команды
