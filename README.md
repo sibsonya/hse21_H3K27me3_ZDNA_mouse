@@ -33,7 +33,7 @@
 
    см. len_hist.R в папке src
 
-4. Фильтрация ChIP-seq пиков (выкидываем слишком длинные пики - outliers)
+4. Фильтрация ChIP-seq пиков (выкидываем слишком длинные пики - outliers). Построение гистограмм длин участков до и после фильтрации
    
    см. filter_peaks.R в папке src  
    порог для ENCFF932OHQ: 600  
@@ -58,6 +58,13 @@
 9. Пересечение гистоновой метки (H3K27me3) и вторичной структуры ДНК (ZDNA_mouse_1)
 
    bedtools intersect -a mouseZ-DNA1.bed -b H3K27me3_MEL.merge.mm10.bed > H3K27me3_MEL.intersect_with_mouseZ-DNA1.bed
+   
+10. Распределение длин пересечений гистоновой метки (H3K27me3) и вторичной структуры ДНК (ZDNA_mouse_1)
+    
+    см. len_hist.R в папке src
+
+11. 
+
 
 
    
