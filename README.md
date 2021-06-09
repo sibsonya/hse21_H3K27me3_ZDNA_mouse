@@ -24,5 +24,10 @@
    wget <https://www.encodeproject.org/files/ENCFF932OHQ/@@download/ENCFF932OHQ.bed.gz>  
    wget <https://www.encodeproject.org/files/ENCFF684CIQ/@@download/ENCFF684CIQ.bed.gz>
 
-2. zcat ENCFF832EOL.bed.gz  |  cut -f1-5 > H3K4me3_A549.ENCFF832EOL.hg38.bed
+2. Необходимо оставить только 5 столбцов файлов, скачанных выше
+
+   zcat ENCFF932OHQ.bed.gz | cut -f1-5 > H3K27me3_MEL.ENCFF932OHQ.mm10.bed  
+   zcat ENCFF684CIQ.bed.gz | cut -f1-5 > H3K27me3_MEL.ENCFF684CIQ.mm10.bed
+   
+3.
 
