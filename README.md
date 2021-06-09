@@ -31,6 +31,10 @@
 
 <img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/filter_peaks.H3K27me3_MEL.ENCFF932OHQ.mm10.filtered.hist.png" width="500"/>
 
+### Расположение пиков гистоновой метки относительно аннотированных генов
+
+<img src="https://github.com/sibsonya/hse21_H3K27me3_ZDNA_mouse/blob/main/images/chip_seeker.H3K27me3_MEL.ENCFF932OHQ.mm10.filtered.plotAnnoPie.png" width="500"/>
+
 ### Выполненные команды
 
 1. Скачивание файлов экспериментов
