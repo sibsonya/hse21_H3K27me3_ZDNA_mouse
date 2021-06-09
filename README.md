@@ -17,7 +17,7 @@
 1. [ENCFF932OHQ](https://www.encodeproject.org/files/ENCFF932OHQ/) 
 2. [ENCFF684CIQ](https://www.encodeproject.org/files/ENCFF684CIQ/)
 
-### Kоманды, выполненные в командной строке
+### Выполненные команды
 
 1. Скачивание файлов экспериментов
 
